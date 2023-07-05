@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.testing_auth
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle
+features: [annotation-api, app-name, gradle, http-client, jackson-databind, junit, junit-params, kotlin, kotlin-application, kotlin-build, logback, micronaut-build, micronaut-test-rest-assured, mockito, netty-server, readme, security, security-annotations, security-jwt, shade, yaml]

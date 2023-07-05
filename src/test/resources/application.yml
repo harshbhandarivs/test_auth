@@ -1,0 +1,23 @@
+micronaut:
+  server:
+    port: 8081
+  application:
+    name: test_auth
+  security:
+    token:
+      jwt:
+        signatures:
+          jwks-static:
+            keycloak:
+              path: 'classpath:jwks/certs.json'
+
+  endpoints:
+    keys:
+      enabled: true
+      path: keys
+    introspection:
+      enabled: true
+netty:
+  default:
+    allocator:
+      max-order: 3
